@@ -1,0 +1,10 @@
+{
+  "name": "iphone-x-preorder-helper",
+  "description": "Automatically check availability and pre-order your iPhone X",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "puppeteer": "^0.12.0"
+  }
+}
