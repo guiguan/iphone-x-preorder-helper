@@ -2,14 +2,14 @@
  * @Author: guiguan
  * @Date:   2017-10-16T21:55:57+11:00
  * @Last modified by:   guiguan
- * @Last modified time: 2017-10-17T11:32:32+11:00
+ * @Last modified time: 2017-10-17T18:51:27+11:00
  */
 
 const puppeteer = require('puppeteer');
 
 const BASE_URL = 'https://www.apple.com';
 const { EMAIL, PASSWD } = process.env;
-const SELECT_BUTTON_SELECTOR = '.as-purchaseinfo-button > button';
+const SELECT_BUTTON_SELECTOR = 'button[name="add-to-cart"]';
 
 process.on('unhandledRejection', reason => {
   console.error(reason);
